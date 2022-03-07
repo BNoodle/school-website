@@ -15,17 +15,16 @@ body {
 }
 
 .top {
-    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0.6vh 0.6vh rgba(0, 0, 0, 0.4);
 }
 
 nav {
     width: 100vw;
     background-color: #2554bb;
-    border-bottom: 0.2rem solid #fdca40;
-    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.4);
+    border-bottom: 0.25vh solid #fdca40;
+    box-shadow: 0 0.6vh 0.6vh rgba(0, 0, 0, 0.4);
     position: relative;
     z-index: 10;
-    
 }
 
 .nav-bar {
@@ -38,9 +37,9 @@ nav {
 
 nav a {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.5vh;
     text-decoration: none;
-    padding: 1rem 6vw;
+    padding: 1.3vh 6vw;
     border-width: 1px;
     transition: background-color 0.5s;
 }
@@ -56,11 +55,76 @@ header {
 
 h1 {
     color: white;
-    padding-top: 1rem;
-    font-size: 5rem;
+    padding-top: 1vh;
+    font-size: 8vh;
 }
 
 header p {
     color: white;
-    padding-bottom: 1rem;
+    padding-bottom: 1vh;
+    font-size: 1.3vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 2vh;
+    gap: 4vh;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+
+.section-b {
+    background-color: #fdca40;
+    border-radius: 0.5vh;
+    box-shadow: 0.3vh 0.3vh 0.9vh rgba(0, 0, 0, 0.7);
+    padding: 1vh;
+}
+
+.section-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vh;
+    width: 0;
+    flex-grow: 3;
+}
+
+.section-text h2 {
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+.section-a .section-text h2 {
+    color: #fdca40;
+}
+
+.section-b .section-text h2 {
+    color: white;
+}
+
+.section-text p {
+    font-weight: lighter;
+    font-size: 1.5vh;
+}
+.section-a .section-text p {
+    color: white;
+}
+
+.section-b .section-text p {
+    color: #283176;
+}
+
+.section-img {
+    width: 0;
+    flex-grow: 2;
+}
+
+.section-img img {
+    width: 100%;
+    box-shadow: 0.3vh 0.3vh 0.9vh rgba(0, 0, 0, 0.7);
 }
