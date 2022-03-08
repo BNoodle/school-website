@@ -1,0 +1,50 @@
+.top {
+    box-shadow: 0 0.6vh 0.6vh rgba(0, 0, 0, 0.4);
+}
+
+nav {
+    width: 100vw;
+    background-color: #2554bb;
+    border-bottom: 0.25vh solid #fdca40;
+    box-shadow: 0 0.6vh 0.6vh rgba(0, 0, 0, 0.4);
+    position: relative;
+    z-index: 10;
+}
+
+.nav-bar {
+    display: flex;
+    width: 60vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+nav a {
+    color: white;
+    font-size: 1.5vw;
+    text-decoration: none;
+    padding: 1.3vh 6vw;
+    border-width: 1px;
+    transition: background-color 0.5s;
+}
+
+nav a:hover {
+    background-color: #5a7ac0;
+}
+
+header {
+    background-color: #283176;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    padding-top: 1vh;
+    font-size: 8vw;
+}
+
+header p {
+    color: white;
+    padding-bottom: 1vh;
+    font-size: 1.3vw;
+}
