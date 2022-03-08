@@ -37,7 +37,7 @@ nav {
 
 nav a {
     color: white;
-    font-size: 1.5vh;
+    font-size: 1.5vw;
     text-decoration: none;
     padding: 1.3vh 6vw;
     border-width: 1px;
@@ -56,19 +56,19 @@ header {
 h1 {
     color: white;
     padding-top: 1vh;
-    font-size: 8vh;
+    font-size: 8vw;
 }
 
 header p {
     color: white;
     padding-bottom: 1vh;
-    font-size: 1.3vh;
+    font-size: 1.3vw;
 }
 
 main {
     display: flex;
     flex-direction: column;
-    padding: 2vh;
+    padding: 2vw;
     gap: 4vh;
 }
 
@@ -76,7 +76,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1vh;
+    gap: 1vw;
 }
 
 .section-b {
@@ -95,7 +95,7 @@ section {
 }
 
 .section-text h2 {
-    font-size: 4vh;
+    font-size: 4vw;
     font-weight: bold;
 }
 
@@ -109,7 +109,7 @@ section {
 
 .section-text p {
     font-weight: lighter;
-    font-size: 1.5vh;
+    font-size: 1.8vw;
 }
 .section-a .section-text p {
     color: white;
