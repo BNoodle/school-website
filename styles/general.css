@@ -4,12 +4,23 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    background-color: #31393c;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 h1,
 h2,
 p {
     cursor: default;
 }
 
-body {
-    background-color: #31393c;
+a {
+    color: white;
+}
+
+a:hover {
+    color: #2176ff;
 }

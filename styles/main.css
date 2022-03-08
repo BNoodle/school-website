@@ -43,13 +43,24 @@ section {
 .section-text p {
     font-weight: lighter;
     font-size: 1.8vw;
+    line-height: 2.2vw;
 }
 .section-a .section-text p {
     color: white;
+    font-weight: 100;
 }
 
 .section-b .section-text p {
     color: #283176;
+}
+
+.section-text .video-link {
+    color: #2554bb;
+    font-size: 3.4vw;
+}
+
+.section-text .video-link:hover {
+    color: #2176ff;
 }
 
 .section-img {

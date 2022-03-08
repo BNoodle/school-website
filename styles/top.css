@@ -20,16 +20,20 @@ nav {
 }
 
 nav a {
-    color: white;
     font-size: 1.5vw;
     text-decoration: none;
     padding: 1.3vh 6vw;
-    border-width: 1px;
-    transition: background-color 0.5s;
+    transition: background-color 0.5s, text-decoration 0.5s;
 }
 
 nav a:hover {
     background-color: #5a7ac0;
+    font-weight: bold;
+    color: white;
+}
+
+nav a.current-page {
+    text-decoration: underline;
 }
 
 header {
@@ -43,7 +47,7 @@ h1 {
     font-size: 8vw;
 }
 
-header p {
+.motto {
     color: white;
     padding-bottom: 1vh;
     font-size: 1.3vw;
