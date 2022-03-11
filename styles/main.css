@@ -37,6 +37,7 @@ main {
 .video-link {
     color: #2554bb;
     font-size: 3.4vw;
+    border: none;
 }
 
 .video-link:hover {
