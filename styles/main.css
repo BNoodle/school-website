@@ -34,14 +34,10 @@ main {
     color: #283176;
 }
 
-.video-link {
-    color: #2554bb;
-    font-size: 3.4vw;
-    border: none;
-}
-
-.video-link:hover {
-    color: #2176ff;
+.promotional-video {
+    margin-top: 1vh;
+    width: 50vw;
+    box-shadow: 0.3vh 0.3vh 0.9vh rgba(0, 0, 0, 0.7);
 }
 
 .topic-text {
