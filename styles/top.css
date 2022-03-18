@@ -11,6 +11,22 @@ nav {
     z-index: 10;
 }
 
+.invisible-nav {
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+}
+
+.invisible-nav a {
+    color: rgba(0, 0, 0, 0);
+}
+
+.sticky-nav {
+    position: fixed;
+    top: 0;
+}
+
 .nav-bar {
     display: flex;
     width: 60vw;
